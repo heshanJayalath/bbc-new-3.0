@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/store-games.css">
+    <link rel="stylesheet" href="style/media.css">
+    <title>Listing Item page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#home" class="logo"><img src="images/logo.png" alt="logo" width="200px" height="120px"></a>
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="search...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+        <div class="header-2">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar shop-nav">
+                <a href="#" class="active">Store</a>
+                <a href="#">Categories</a>
+                <a href="#">Start Selling</a>
+                <a href="#">My Listings</a>
+            </nav>
+            <div class="icons">
+                <a href="#"><i class="fa fa-comments"></i>Messages</a>
+                <a href="#"><i class="fa fa-heart"></i>Wishlist</a>
+                <a href="#"><i class="fa fa-sign-in" ></i>SignIn/SignUp</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="listing-item-form">
+        <h1>Create Your Listing</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Account Type: </td>
+                    <td>
+                        <select>
+                            <option value="">Valorant</option>
+                            <option value="">Apex Legends</option>
+                            <option value="">Clash of Clans</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td><input type="text" class="listing-title" maxlength="80"></td>
+                </tr>
+                
+                <tr>
+                    <td>Images</td>
+                    <td>
+                        <div class="upload-container">
+                            <div class="container">
+                                <div class="wrapper">
+                                    <div class="image">
+                                        <img class="photo" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                                        <div class="text">No file chosen, yet!</div>
+                                    </div>
+                                    <div id="cancel-btn"><i class="fas fa-times"></i></div>
+                                    <div class="file-name">File name here</div>
+                                </div>
+                                <input type="file" id="default-btn" hidden>
+                                <button onclick="defaultBtnActive()" id="custom-btn">choose a file</button>
+                            </div>
+                            <div class="container">
+                                <div class="wrapper">
+                                    <div class="image">
+                                        <img class="photo" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                                        <div class="text">No file chosen, yet!</div>
+                                    </div>
+                                    <div id="cancel-btn"><i class="fas fa-times"></i></div>
+                                    <div class="file-name">File name here</div>
+                                </div>
+                                <input type="file" id="default-btn" hidden>
+                                <button onclick="defaultBtnActive()" id="custom-btn">choose a file</button>
+                            </div>
+                            <div class="container">
+                                <div class="wrapper">
+                                    <div class="image">
+                                        <img class="photo" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                                        <div class="text">No file chosen, yet!</div>
+                                    </div>
+                                    <div id="cancel-btn"><i class="fas fa-times"></i></div>
+                                    <div class="file-name">File name here</div>
+                                </div>
+                                <input type="file" id="default-btn" hidden>
+                                <button onclick="defaultBtnActive()" id="custom-btn">choose a file</button>
+                            </div>
+                            <div class="container">
+                                <div class="wrapper">
+                                    <div class="image">
+                                        <img class="photo" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                                        <div class="text">No file chosen, yet!</div>
+                                    </div>
+                                    <div id="cancel-btn"><i class="fas fa-times"></i></div>
+                                    <div class="file-name">File name here</div>
+                                </div>
+                                <input type="file" id="default-btn" hidden>
+                                <button onclick="defaultBtnActive()" id="custom-btn">choose a file</button>
+                            </div>
+                            <div class="container">
+                                <div class="wrapper">
+                                    <div class="image">
+                                        <img class="photo" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                                        <div class="text">No file chosen, yet!</div>
+                                    </div>
+                                    <div id="cancel-btn"><i class="fas fa-times"></i></div>
+                                    <div class="file-name">File name here</div>
+                                </div>
+                                <input type="file" id="default-btn" hidden>
+                                <button onclick="defaultBtnActive()" id="custom-btn">choose a file</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account Specifications:</td>
+                    <td>
+                        <label for="accountCountry">Account-Country</label><br>
+                        <select name="" id="accountCountry">
+                            <option value="">Sri Lanka</option>
+                            <option value="">Philiphines</option>
+                            <option value="">Malayshia</option>
+                        </select><br><br>
+                        <label for="accountCountry">Rank</label><br>
+                        <select name="" id="accountCountry">
+                            <option value="">Iron 1</option>
+                            <option value="">Iron 2</option>
+                            <option value="">Iron 3</option>
+                        </select>
+                        <div class="skin-addition">
+                            <label for="skin-txt">Add Skins</label><br>
+                            <input type="text" name="skins" id="skin-txt">
+                            <button type="" class="skin-add-btn"><i class="fa fa-plus"></i></button>
+                            <ul></ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>
+                        <textarea name="" id="" cols="90" rows="10" maxlength="500"></textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Selling Details</td>
+                    <td>
+                        <label for="account-selling-price">Fixed Price</label><br>
+                        <input type="number" name="" id="account-selling-price"><br><br>
+                        <label for="account-selling-discount">Discount Rate</label><br>
+                        <select name="" id="account-selling-discount">
+                            <option value="">5%</option>
+                            <option value="">10%</option>
+                            <option value="">15%</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="listing-post-btn" type="submit">List Item</button>
+                        <button class="listing-cancel-btn" >Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <script src="js/image-upload.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/skins-add.js"></script>
+    
+
+    </body>
+    </html>

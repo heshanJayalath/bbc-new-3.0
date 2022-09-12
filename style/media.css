@@ -1,0 +1,197 @@
+@media(max-width:1000px){
+    .products-display{
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+        }
+        .products-display-recommanded{
+            grid-template-columns: 1fr 1fr 1fr ;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+        } 
+        .wishlist{
+            display: block;
+        }
+}
+@media(max-width:991px){
+    .header-1,.header-2{
+        padding: 2rem;
+    }
+    .header-2 #menu-bar{
+        display: initial;
+    }
+    .header-2 .navbar{
+        z-index: 10000;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        padding: 1rem 2rem;
+        display: none;
+    }
+    .header-2 .navbar.active{
+        display: inline;
+    }
+    .header-2 .navbar a{
+        font-size: 1.7rem;
+        display: block;
+        padding: 1rem;
+        margin: 1.5rem 0;
+        border: .1rem solid #fafafa;
+        border-left: .5rem solid #1b1b1b;
+    }
+    .product-div{
+        grid-template-columns: 100%;
+    }
+}
+@media(max-width:768px){
+    .header-1 .search-box-container{
+        width: 
+        30rem;
+    }
+    .gaming-search{
+        display:block;
+        width: 100%;
+    }
+    .sort-by-form{
+        font-size: 14px;
+    }
+    .sort-by-form select{
+       
+        font-size: 12px;
+        width: 250px;
+        font-weight: 400;
+       
+    }
+    .sort-by-form select option{
+        font-size: 12px;
+    }
+    .gaming-search .filter-bar{
+        margin: 1rem;
+        color: #fff;
+        flex: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .products-display{
+    grid-template-columns: 1fr 1fr ;
+    grid-row-gap: 3rem;
+    grid-column-gap: 3rem;
+    }
+    .products-display-recommanded{
+        grid-template-columns: 1fr 1fr ;
+        grid-row-gap: 3rem;
+        grid-column-gap: 3rem;
+        }
+    #search-box-container{
+        width: 90%;
+    }
+    .modal-content {
+        width: 100%;
+      }
+      .wishlist-item-image{
+        display: none;
+      }
+      .wishlist-item-description .title{
+        font-size: 2rem;
+      }
+      .wishlist-item-description p{
+        font-size: 1.5rem;
+      }
+      .wishlist-item-description .price{
+        font-size: 1.6rem;
+      }
+      
+}
+
+@media(max-width:589px){
+    .products-display{
+        grid-template-columns: 1fr;
+        grid-row-gap: 3rem;
+        grid-column-gap: 3rem;
+    }
+    .products-display-recommanded{
+        grid-template-columns: 1fr;
+        grid-row-gap: 3rem;
+        grid-column-gap: 3rem;
+    }
+    .wishlist-item-description button{
+        margin: 0px 2px;
+        padding: 3px 10px;
+        font-weight: 400;
+      }
+      footer .footer-col{
+        font-size: 1rem;
+      }
+      .header-2 #menu-bar{
+        display: initial;
+        font-size: 8px;
+    }
+    .header-2 .navbar a{
+        font-size: 12px;
+    }
+    .header-2 .icons a{
+        font-size: 1.1rem;
+    }
+    .product-div .img-container{
+        width: 300px
+    }
+    .hover-container{
+        width: 95%;
+        
+    }
+    .hover-container div{
+        padding: 1px;
+    }
+    .hover-container div img{
+        width: 50px;
+        
+    }
+    .listing-item-form h1{
+        font-size: 1.5rem;
+    }
+    .listing-item-form table{
+        width: 100%;
+    }
+    .listing-item-form td{
+        font-size: 1.2rem;
+    }
+    .listing-item-form table select{
+        font-size: 1.2rem;
+        width: 250px;
+        height: 17px;
+    }
+    .listing-item-form table input{
+        width: 250px;
+        height: 17px;
+        font-size: 1.2rem;
+    }
+    .listing-item-form .upload-container{
+        display: block;
+    }
+    .listing-item-form .container{
+        height: 200px;
+        width: 150px;
+        margin-right: 2rem;
+    }
+    .listing-item-form textarea{
+        width: 250px;
+    }
+    .listing-item-form button{
+        font-size: 1rem;
+        padding: 10px 7px;
+        width: 250px;
+        margin-top: 5px;
+    }
+    
+    
+}
+@media(max-width:400px){
+    .products-sidebar{
+        display: block;
+    }
+    .pagination .page{
+        padding: .25rem .5rem;
+    }
+}

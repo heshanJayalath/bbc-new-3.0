@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>BBC Gaming</title>
+</head>
+<body style="background-image:url('4k.jpg'); ">
+<div class="body-content">
+   <nav>
+       <div class="logo">
+            <img src="images/logo.png" alt="logo" >
+       </div>
+       <ul class="nav-links">
+           <li><a href="#home">Home</a></li>
+           <li><a href="#">Store</a></li>
+           <li><a href="#about">about</a></li>
+           <li><a href="#howtouse">How to use</a></li>
+           <li><a href="#contact">contanct/Join</a></li>
+           <li><a href="#">Login/Signup</a></li>
+       </ul>
+       <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+       </div>
+   </nav>
+   
+   <div class="banner" id="home">
+        <div class="bg">
+            <div class="content">
+                <h2>Home for <br> Game Lovers</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <a href="#" class="btn">Browse</a>
+            </div>
+            <img src="images/bgs-1.webp" alt="">
+        </div>
+    </div>
+
+<div class="about" id="about">
+    <img src="images/bgs-2.webp" alt="">
+    <div class="contentBx">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit <br>
+        </p>
+        <a href="#">Read more...</a>
+    </div>
+</div>
+<div class="howTo" id="howtouse">
+    <div class="contentBx">
+        <h2>How to Use</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit <br>
+        </p>
+        <a href="#">Read more...</a>
+    </div>
+    <img src="images/bgs-3.webp" alt="">
+</div>
+
+<div class="contact" id="contact">
+    <div class="image">    
+    <img src="images/contact.png" alt="">
+    </div>
+    <div class="form">
+        <h1>Contact Us</h1>
+        <div class="inputBx">
+            <p>Enter Name</p>
+            <input type="text" placeholder="Full Name">
+        </div>
+        <div class="inputBx">
+            <p>Enter Email</p>
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="inputBx">
+            <p>Message</p>
+            <textarea placeholder="Type here..."></textarea>
+        </div>
+        <div class="inputBx">
+            <input type="submit" name="submit">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="info">
+        <a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+        <p><i class="bx bx-copyright">2022 All Rights Reserved.</i></p>
+        <ul>
+            <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+            <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+   
+
+   <script src="js/app.js">
+
+   </script>
+   <script>
+    /*scrollbar*/
+    window.addEventListener('scroll',function(){
+        var header =document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY>0);
+    });
+
+    
+</script>
+</body>
+</html>
